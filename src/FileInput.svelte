@@ -8,8 +8,6 @@
 	import concatTypedArrays from "$lib/concat";
 	import fileName from "./stores/fileName";
 
-	let selectedFile: File | null = null;
-
 
 	function handleFileInput(event: null | Event & { currentTarget: EventTarget & HTMLInputElement; }) {
 		if (event) {
